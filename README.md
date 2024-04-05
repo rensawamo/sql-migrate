@@ -14,6 +14,9 @@ $ direnv allow
 ### DB セットアップ
 ``` sh
 $ docker-compose up -d
+docker compose up -d 
+[+] Running 1/1
+ ✔ Container mysql56  Started     
 ```
 ```sh
 $ docker ps 
