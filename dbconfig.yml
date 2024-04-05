@@ -6,3 +6,4 @@
    dialect: mysql
    datasource: ${MYSQL_ROOT_USER}:${MYSQL_ROOT_PASSWORD}@tcp(127.0.0.1)/sql_migrate_stg?parseTime=true
    dir: ./migrations/
+                                                                              
