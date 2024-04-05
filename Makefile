@@ -12,6 +12,9 @@ help:
 docker-up:
 	docker compose up -d 
 
+.PHONY: docker-down
+docker-down:
+	docker-compose down
 
 .PHONY: migrate
 migrate:

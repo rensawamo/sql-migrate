@@ -1,9 +1,8 @@
  development:
    dialect: mysql
-   datasource: ${MYSQL_ROOT_USER}:${MYSQL_ROOT_PASSWORD}@tcp(127.0.0.1)/sql_migrate_dev?parseTime=true
+   datasource: ${MYSQL_ROOT_USER}:${MYSQL_ROOT_PASSWORD}@tcp(127.0.0.1)/freeeeren?parseTime=true
    dir: ./migrations/ 
  staging:
    dialect: mysql
-   datasource: ${MYSQL_ROOT_USER}:${MYSQL_ROOT_PASSWORD}@tcp(127.0.0.1)/sql_migrate_stg?parseTime=true
+   datasource: ${MYSQL_ROOT_USER}:${MYSQL_ROOT_PASSWORD}@tcp(127.0.0.1)/freeeeren?parseTime=true
    dir: ./migrations/
-                                                                              

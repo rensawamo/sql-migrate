@@ -1,13 +1,12 @@
  version: "3"
  services:
+ 
    mysql:
-     build: ./mysql
-     container_name: mysql
+     image: mysql:latest
      ports:
        - ${LOCAL_MYSQL_PORT}:3306
      environment:
        MYSQL_ROOT_USER: ${MYSQL_ROOT_USER}
        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
      volumes:
-       - ./mysql/data:/var/lib/mysql
-       - ./mysql/init:/docker-entrypoint-initdb.d
+       - ./script:/docker-entrypoint-initdb.d 
