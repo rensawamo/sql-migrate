@@ -5,7 +5,7 @@ $ go get -v github.com/rubenv/sql-migrate/...
 ```
 
 
-### .env のセットアップ
+### envrc のセットアップ
 ```sh
 $ direnv edit .
 $ direnv allow
